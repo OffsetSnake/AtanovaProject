@@ -22,7 +22,7 @@
     font-size: 1.2em;
     color: #000;
     display: block;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 
 .sidenav a:first-child{
@@ -171,12 +171,18 @@
 }
 
 .func{
-	margin-left: 10%;
+	margin-left: 8%;
 }
 
 .func li{
 	font-size: 1.2em;
 	padding: 0px 15px 40px 15px;
+	list-style-type: none;
+}
+
+.func li::before{
+	content: url(точки.svg);
+	padding-right: 0.5em;
 }
 
 .block3{
@@ -266,6 +272,11 @@
 .btns button p{
 	font-size: 1.2em;
 	margin: auto 0;
+	transition: 0.2s;
+}
+
+.btns button p:hover {
+    color: #F8CD9B;
 }
 
 .nav{
@@ -284,7 +295,7 @@
   	right: 40px;
   	bottom: 60px;
   	box-shadow: 0 1px 8px rgba(10, 16, 20, 0.15), 0 0 8px rgba(10, 16, 20, 0.12);
-  	transition: box-shadow 0.2s linear;
+  	transition: 0.3s;
   	visibility: hidden;
 }
 
@@ -294,6 +305,7 @@
 .scroll:hover {
   	cursor: pointer;
   	box-shadow: none;
+  	background-color: #F8CD9B;
 }
 
 .top{
