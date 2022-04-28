@@ -1,0 +1,302 @@
+*{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+
+.sidenav {
+	width: 10%;
+    position: fixed;
+    z-index: 1;
+    top: 230px;
+    left: 10px;
+    word-wrap: normal;
+}
+
+.sidenav a {
+	border-bottom: 1px solid #000;
+    padding: 10px 8px 10px 16px;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #000;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:first-child{
+	border-top: 1px solid #000;
+}
+
+.sidenav a:hover {
+    color: #F8CD9B;
+}
+
+.header{
+	background-color: #fff;
+	padding: 50px 41px;
+}
+
+.header h1{
+	color: #000;
+	font-size: 2em;
+	font-weight: bolder;
+	margin-bottom: 41px;
+}
+
+.line{
+	margin: auto;
+	width: 45%;
+}
+
+.search{
+	display: block;
+	margin: 0 0 0 auto;
+	border: 1px solid #000;
+	border-radius: 10px;
+	width: 215px;
+	height: 30px;
+}
+::placeholder{
+	padding: 10px;
+	text-align: right;
+}
+
+
+.block1{
+	background-color: #f0f0f0;
+	padding: 40px 40px 0px 40px;
+}
+
+.features{
+	margin-left: 20%;
+	white-space:nowrap;
+	display: flex;
+}
+
+.videoyt{
+	width: 400px;
+	height: 200px;
+}
+
+.vt{
+	width: 500px;
+	height: 250px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 15%;
+}
+
+.block1 h3{
+	font-size: 2em;
+	text-decoration: underline;
+	text-align: right;
+	margin-right: 40px;
+	margin-bottom: 47px;
+	font-weight: normal;
+}
+
+.block1 h2{
+	margin-left: 20%;
+	font-size: 2em;
+	text-decoration: overline;
+}
+
+.column{
+	vertical-align: top;
+	padding-right: 70px;
+	margin-bottom: 100px;
+}
+
+.column p{
+	font-size: 1.2em;
+	margin: 25px 0px;
+}
+
+.column4 p{
+	font-size: 1.2em;
+	margin-top: 15px;
+	color: #979797;
+}
+
+.icon{
+	vertical-align:middle;
+	margin-right: 10px;
+}
+
+.picture{
+	width: 100%
+}
+
+.stat{
+	width: 40%;
+	display: block;
+	margin: 0 auto;
+	float: none; 
+}
+
+.block2{
+	padding: 40px 40px 40px 40px;
+}
+
+.functions{
+	margin-left: 15%;
+}
+
+.functions h2{
+	display: block;
+	text-align: right;
+	margin-right: 30%;
+	font-size: 2em;
+	text-decoration: overline;
+	margin-bottom: 40px;
+}
+
+.pic{
+	width: 30%;
+	float: left;
+	align: middle;
+}
+
+.column2{
+	display: flex;
+}
+
+.video p{
+	font-size: 1.2em;
+	padding: 15px 0px 35px 0px;
+	text-align: center;
+	color: #979797;
+}
+
+.func{
+	margin-left: 10%;
+}
+
+.func li{
+	font-size: 1.2em;
+	padding: 0px 15px 40px 15px;
+}
+
+.block3{
+	background-color: #f0f0f0;
+	padding: 40px 40px 50px 40px;
+	display: flex;
+}
+
+.column3{
+	margin-left: 20%;
+	margin-right: 5%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.plus-minus{
+	width: 40%;
+}
+
+.icon3{
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.plus-minus p{
+	font-size: 1.2em;
+	padding: 15px 0px;
+	text-align: justify;
+}
+
+.block4{
+	padding: 40px 40px 50px 40px;	
+}
+
+.block4 h2{
+	margin-left: 20%;
+	display: block;
+	font-size: 2em;
+	text-decoration: overline;
+	margin-bottom: 10px;
+}
+
+.column4{
+	margin-left: 20%;
+	margin-right: 5%;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 150px;
+}
+
+.column4 p{
+	font-size: 1.2em;	
+}
+
+.text{
+	width: 60%;
+}
+
+.text p{
+	padding: 5px 0px;	
+}
+
+.tarif{
+	float: right;
+	width: 30%;
+	vertical-align: top;
+}
+
+.btns{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+
+.btns button{
+	display: flex;
+	border:  none;
+	background-color: #fff;
+	cursor: pointer;
+	margin: 0 50px;
+	font-size: 1.2em;
+	color: #979797;
+
+}
+
+.btns button p{
+	font-size: 1.2em;
+	margin: auto 0;
+}
+
+.nav{
+	width: 40px;
+	height: 40px;
+	margin: 0 10px;
+}
+
+.scroll{
+	background-color: #fff;
+	border: none;
+  	width: 50px;
+  	height: 50px;
+  	border-radius: 50%;
+  	position: fixed;
+  	right: 40px;
+  	bottom: 60px;
+  	box-shadow: 0 1px 8px rgba(10, 16, 20, 0.15), 0 0 8px rgba(10, 16, 20, 0.12);
+  	transition: box-shadow 0.2s linear;
+  	visibility: hidden;
+}
+
+.scroll.visible {
+  	visibility: visible;
+}
+.scroll:hover {
+  	cursor: pointer;
+  	box-shadow: none;
+}
+
+.top{
+	width: 50px;
+	height: 50px;
+}
